@@ -312,7 +312,7 @@ if(isset($_GET['page'])){
 
 
                                             setInterval(function(){
-                                                window.location.href="settings";
+                                                location.reload();
                                             }, 1000);
 
                                         } else {
@@ -386,7 +386,7 @@ if(isset($_GET['page'])){
                                         $("#text_button").text('Changes Made To Your Account');
 
                                          setInterval(function(){
-                                                window.location.href="settings";
+                                                location.reload();
                                             }, 1000);
 
                                     } else {
@@ -469,7 +469,7 @@ if(isset($_GET['page'])){
                                         $("#password_txt_1").text('Changes Made To Your Account');
 
                                          setInterval(function(){
-                                                window.location.href="settings";
+                                                location.reload();
                                             }, 1000);
 
                                     } else {
@@ -663,7 +663,7 @@ if(isset($_GET['page'])){
 
                                    function interval(){
                                         setInterval(function(){
-                                            window.location.href='settings?page=logout';
+                                            window.location.href='settings?page=settings';
                                         }, 3000);
                                    }
 
